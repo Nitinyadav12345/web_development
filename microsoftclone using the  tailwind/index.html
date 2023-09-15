@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="input.css" />
+    <title>Microsoft - Cloud, Computers, Apps &amp; Gaming</title>
+    <title>Tailwind</title>
+  </head>
+  <body>
+    <div class="navbar flex justify-between items-center p-4 mr-4 ml-4">
+      <div class="flex justify-center items-center md:order-2">
+        <div class="inline-block hamburger cursor-pointer p-4 md:hidden">
+          <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          <div class="line h-0.5 w-6 my-1 bg-black"></div>
+        </div>
+        <div class="search p-4 w-12 md:hidden"><img src="search.svg" alt=""></div>
+      </div>
+      <div class="logo text-center md:order-1 flex">
+        <div class="p-4 w-44"><img class="w-[60%] cursor-pointer"  src="logo.png" alt=""></div>
+        <div
+          class="features text-sm absolute w-fit  inset-0 md:bg-white md:w-auto md:flex md:mx-4 md:space-x-3 bg-gray-100 -translate-x-96
+          md:items-center md:translate-x-0 md:static p-4"
+        >
+          <div class="fitem hover:underline hover:underline-offset-4 hover:decoration-2 cursor-pointer">Microsoft365</div>
+          <div class="fitem hover:underline hover:underline-offset-4 hover:decoration-2 cursor-pointer">Teams</div>
+          <div class="fitem hover:underline hover:underline-offset-4 hover:decoration-2 cursor-pointer">Windows</div>
+          <div class="fitem hover:underline hover:underline-offset-4 hover:decoration-2 cursor-pointer">Surface</div>
+          <div class="fitem hover:underline hover:underline-offset-4 hover:decoration-2 cursor-pointer">Xbox</div>
+          <div class="fitem hover:underline hover:underline-offset-4 hover:decoration-2 cursor-pointer">Support</div>
+        </div>
+      </div>
+      <div class="cart text-center md:order-3 flex justify-center items-center">
+        <div class="search mr-4  hidden md:block hover:underline  hover:underline-offset-4 hover:decoration-2 cursor-pointer">All Microsoft 
+        </div>
+        <img class="mr-4 w-4 hidden md:block cursor-pointer" src="search.svg" alt="">
+        <div class="flex ">
+          <img class="mr-4 w-4 cursor-pointer" src="cart.svg" alt="">
+          <img class="mr-4 w-4 cursor-pointer" src="account.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="slider flex flex-col bg-[#ffffff] md:flex-row md:bg-[#f2f2f2] mx-2 ">
+        <div class="left ">
+            <img src="s9.jpg" alt="">
+        </div>
+        <div class="right flex flex-col justify-center items-center md:items-baseline py-12">
+            <h1 class="text-2xl md:text-4xl font-semibold mx-3 ">Surface Pro 9</h1>
+            <p class="w-3/4 mx-3 text-center md:text-left ">Tablet versatility and laptop power - all in one ultra-portable device</p>
+            <button class="text-white bg-blue-700 px-4 rounded-sm font-bold py-2 my-6 mx-3 hover:bg-blue-800">Learn More</button>
+        </div>
+        
+    </div>
+    <div class="promo space-y-6 flex flex-wrap justify-center ">
+      <div class="item flex flex-col justify-center items-center mx-4 space-x-2 mt-6 text-sm ">
+        <img src="icon-1.webp" alt="">
+        <span class="font-semibold text-blue-600 underline cursor-pointer">Choose your Microsoft 365</span>
+      </div>
+      <div class="item flex flex-col justify-center items-center mx-4 space-x-2 text-sm">
+        <img src="icon-2.webp" alt="">
+        <span class="font-semibold text-blue-600 underline cursor-pointer">Explore Surface devices</span>
+      </div>
+      <div class="item flex flex-col justify-center items-center mx-4 space-x-2 text-sm">
+        <img src="icon-3.webp" alt="">
+        <span class="font-semibold text-blue-600 underline cursor-pointer">Buy Xbox games and consoles</span>
+      </div>
+      <div class="item flex flex-col justify-center items-center mx-4 space-x-2 text-sm">
+        <img src="icon-4.webp" alt="">
+        <span class="font-semibold text-blue-600 underline cursor-pointer">Get Windows 11</span>
+      </div>
+      
+    </div>
+  </body>
+</html>
