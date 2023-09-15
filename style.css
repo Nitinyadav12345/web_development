@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: green;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+    margin: 10px;
+}
+
+a:hover{
+    color: aqua;
+    text-decoration: line-through;
+}
